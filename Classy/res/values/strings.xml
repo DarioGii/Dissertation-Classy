@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Classy!</string>
+    <string name="action_settings">Settings</string>
+	<string name="title_activity_apk_list">App List</string>
+    <string name="appicon">Application Icon</string>
+    <string name="package_name">Package Name:</string>
+    <string name="version">Version:</string>
+    <string name="features">Features:</string>
+    <string name="permissions">Permissions:</string>
+    <string name="installed">Installed:</string>
+    <string name="modified">Last Modified:</string>
+    <string name="app_logo">Classy! Logo</string>
+    <string name="classy_cat">Classy Category:</string>
+    <string name="market_cat">Google Play Category:</string>
+    <string name="update">Update</string>
+</resources>

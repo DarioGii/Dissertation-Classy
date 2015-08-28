@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+ 
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/pack_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/package_name"
+	        android:fontFamily="sans-serif-light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+ 
+        <TextView
+            android:id="@+id/package_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pack_name"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"  />
+        
+        <TextView
+            android:id="@+id/classy_cat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/package_name"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/classy_cat"
+	        android:fontFamily="sans-serif-light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+ 
+        <TextView
+            android:id="@+id/classy_category"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/classy_cat"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"  />
+ 
+        <TextView
+            android:id="@+id/market_cat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/classy_category"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/market_cat"
+	        android:fontFamily="sans-serif-light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+ 
+        <TextView
+            android:id="@+id/market_category"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/market_cat"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"  />
+        
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/market_category"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/version"
+	        android:fontFamily="sans-serif-light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+ 
+        <TextView
+            android:id="@+id/version_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/version"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"  />
+ 
+        <TextView
+            android:id="@+id/features"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/version_name"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/features"
+	        android:fontFamily="sans-serif-light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+ 
+        <TextView
+            android:id="@+id/req_feature"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/features"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp" />
+ 
+        <TextView
+            android:id="@+id/permissions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/req_feature"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/permissions"
+	        android:fontFamily="sans-serif-light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+ 
+        <TextView
+            android:id="@+id/req_permission"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/permissions"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp" />
+ 
+        <TextView
+            android:id="@+id/installed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/req_permission"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/installed"
+	        android:fontFamily="sans-serif-light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+ 
+        <TextView
+            android:id="@+id/insdate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/installed"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp" />
+ 
+        <TextView
+            android:id="@+id/modified"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/insdate"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/modified"
+	        android:fontFamily="sans-serif-light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+ 
+        <TextView
+            android:id="@+id/last_modify"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/modified"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp" />
+    </RelativeLayout>
+ 
+</ScrollView>
